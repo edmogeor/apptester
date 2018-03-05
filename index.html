@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <style>
+
+    body {padding: 0; margin: 0;}
+
+    </style>
+    <!-- latest jQuery -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+
+    <!-- link the css and js scripts -->
+    <link href="multi-screen-css.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="libraries/multi-screen.js"></script>
+
+    <!-- run the plugin -->
+    <script type="text/javascript">$(document).ready(function() { MultiScreen.init(); });</script>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.js"></script>
+    <script src="libraries/p5.sound.js"></script>
+    <script src="libraries/date.js"></script>
+    <script src="tracking.js"></script>
+    <script src="home.js"></script>
+    <script src="map.js"></script>
+    <style> body {padding: 0; margin: 0;}
+      body::-webkit-scrollbar { display: none; }
+
+    </style>
+    </head>
+    <body>
+      <div id="screen1" class="ms-container ms-default"></div> <br>
+      <div id="screen2" class="ms-container"></div> <br>
+      <div id="screen3" class="ms-container"></div>
+    </body>
+</html>
