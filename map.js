@@ -148,6 +148,14 @@ p.windowResized = function() {
   }
 
   p.draw = function() {
+    p.background(188)
+    p.push();
+    p.fill(71, 47, 145)
+    p.textAlign(p.CENTER)
+    p.textSize(20*scale);
+    p.textFont("Thin");
+    p.text("Loading Map...",p.windowWidth/2, p.windowHeight/2)
+    p.pop();
     p.chooseImage();
     p.push();
     p.imageMode(p.CENTER)
