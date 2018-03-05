@@ -14,7 +14,7 @@ var three = function( p ) {
     target_id: 'screen2',
     animation_command:  'left',
   	enter_animation_command: 'left',
-  	exit_animation_command: 'right',
+  	exit_animation_command: 'fade',
     enter_animation_time: '400',
     exit_animation_time: '400'
   }

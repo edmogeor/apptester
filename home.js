@@ -102,7 +102,7 @@ var one = function( p ) {
     target_id: 'screen2',
     animation_command:  'bottom',
   	enter_animation_command: 'bottom',
-  	exit_animation_command: 'top',
+  	exit_animation_command: 'fade',
     enter_animation_time: '400',
     exit_animation_time: '400'
   }

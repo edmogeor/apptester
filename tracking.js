@@ -137,7 +137,7 @@ var todaytest;
     target_id: 'screen1',
     animation_command:  'top',
   	enter_animation_command: 'top',
-  	exit_animation_command: 'bottom',
+  	exit_animation_command: 'fade',
     enter_animation_time: '400',
     exit_animation_time: '400'
   }
@@ -146,7 +146,7 @@ var todaytest;
     target_id: 'screen3',
     animation_command:  'right',
     enter_animation_command: 'right',
-    exit_animation_command: 'left',
+    exit_animation_command: 'fade',
     enter_animation_time: '400',
     exit_animation_time: '400'
   }
